@@ -1,7 +1,26 @@
 {
+  "name": "solace-client-sdk",
+  "version": "1.0.0",
+  "description": "Solace SDK for encryption, VAD, and blob upload",
+  "main": "src/index.js",
+  "type": "module",
+  "keywords": [
+    "solace",
+    "sdk",
+    "encryption",
+    "vad"
+  ],
+  "author": "Mihir Kapile",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
     "@babel/preset-env": "^7.28.0",
     "babel-jest": "^30.0.4",
     "jest": "^30.0.4"
+  },
+  "dependencies": {
+    "@ricky0123/vad-web": "^0.0.24"
   }
 }
